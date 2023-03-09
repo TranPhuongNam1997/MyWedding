@@ -3,12 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="icon" href="https://codextheme.codexperts.in/WedLove/favicon.ico">
+    <link rel="icon" href="/images/favicon.ico">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="#000000">
     <meta name="description" content="Web site created using create-react-app">
-    <link rel="apple-touch-icon" href="https://codextheme.codexperts.in/WedLove/logo192.png">
-    <link rel="manifest" href="https://codextheme.codexperts.in/WedLove/manifest.json">
+    <link rel="manifest" href="/libraries/js/manifest.json">
     <script src="https://kit.fontawesome.com/54c64a63d5.js" crossorigin="anonymous"></script>
     <style media="all" id="fa-v4-font-face">
         /*!
@@ -11100,8 +11099,10 @@
         }
     </style>
     <title>WedLove</title>
-    <link href="https://codextheme.codexperts.in/WedLove/static/css/1.f4819cdf.chunk.css" rel="stylesheet">
-    <link href="https://codextheme.codexperts.in/WedLove/static/css/main.d0fabf30.chunk.css" rel="stylesheet">
+    <link rel='stylesheet' href='./libraries/css/animate.min.css'>
+    <link rel='stylesheet' href='./libraries/css/owl.carousel.min.css'>
+    <link href="./libraries/css/1.f4819cdf.chunk.css" rel="stylesheet">
+    <link href="./libraries/css/main.d0fabf30.chunk.css" rel="stylesheet">
 </head>
 
 <body>
@@ -11118,7 +11119,7 @@
                     <div class="loader-heart loader-heart3"><img
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAqCAYAAAAj6gIfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAxhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDM0MiwgMjAxMC8wMS8xMC0xODowNjo0MyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2MTM0RDIyMEQwRkQxMUU0ODQwN0M0RjlCQThCRERGNyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2MTM0RDIyMUQwRkQxMUU0ODQwN0M0RjlCQThCRERGNyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjYxMzREMjFFRDBGRDExRTQ4NDA3QzRGOUJBOEJEREY3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjYxMzREMjFGRDBGRDExRTQ4NDA3QzRGOUJBOEJEREY3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+KDFqowAAApJJREFUeNrUmTtoFEEYx2c3BJOAHJJCETQqqJ34ABVBRFFsAkkQjCDRzicWNlYiFmIhWGihxiJYCIKJL4z4AAMGlFSSIo05EZEjIBZRI4rxzPr7YBaW9fZuH3O5nT/84G5Zvvnd3Ozy7azjeZ6qkgJ0QTdshkXQCg7MwlcYh0cwCF9U7WyEXtgDK2EhNMFf+AFT8AqG4GXVSiJfgSY4DkUvfj7BaWiOqLkcBuB3gpojsD2iXkX5JTDspc8zWBqq2QmllPXkx56NI78CJrzsmdAzLTV7E852VPrBjZJvh3HPXEahB34arHkpKO8ELthbcFjlPz3wUD748nLlv1B2pAibYMbVB84oe7IaDsoHkV8HO5RdOSSrRuR3Q7Nl8hvkHxD5Lcq+tMiKEfllys50uLpXsTEFkf9jqfwvkf9gqXzRrdl25jPfYUzkn+q+3KbIhJdEvgR3LZO/Eext1sJbaLNAfET3YnN+b/MOrlkgXoZzIu73Nn4uWnDnuQmv/S9O6AG8Ex7nVPy93gSY9g+4oROG4WpOl8uxoHjU7kEbvPHylYoP4E7Evs0aGIXFOZj1e7Dfv0iDcapsOu3V67+Rvb5saO36b7lErPlgnsOpBopP6Z216agT3BoF+uFCg3qXAzCZZrsvzPV5vDhnoSuOV1x52am6PQ/iZeiL6RRbXlgAg3WWP5rAJ5G80AoP6iR+MqFLYnmhBe4blJ6DEyk8Usn7S+iOoTV+JKVDanmlXyIMZLyr9GUYP5O8fxe6kkJ8Brozjp1Z3ud8AvHPsNPEuKbklb5blGuIT8J6U2OalBf2wbcIcWmzO0yOZ1pe2AYfQ+JDUDA9Vj3khVUwpsUvh1+EmcKp8RI5S9phKzyp1wD/BBgAWmeo2szmJAYAAAAASUVORK5CYII="
                             alt="heart img" class=""></div><img
-                        src="https://codextheme.codexperts.in/WedLove/static/media/loader_wedlove.bf5a08c9.gif"
+                        src="/images/loader_wedlove.bf5a08c9.gif"
                         alt="heart img" class="img-fluid">
                 </div>
             </div>
@@ -11598,7 +11599,7 @@
                                     <div class="wpo-event-text">
                                         <h2>Wedding Party</h2>
                                         <ul>
-                                            <li>Monday, 25 Sep, 2021 1:00 PM – 4:30 PM</li>
+                                            <li>Monday, 25 Sep, 2021 1:00 PM - 4:30 PM</li>
                                             <li>Estern Comunity Centure, 525 Road 123, USA</li>
                                             <li>Phone : +12345678910</li>
                                             <li><a class="popup-gmaps" href="#/">See Location</a></li>
@@ -11621,8 +11622,19 @@
     </div>
 
     <!-- <script>!function (l) { function e(e) { for (var r, t, n = e[0], o = e[1], u = e[2], f = 0, i = []; f < n.length; f++)t = n[f], p[t] && i.push(p[t][0]), p[t] = 0; for (r in o) Object.prototype.hasOwnProperty.call(o, r) && (l[r] = o[r]); for (s && s(e); i.length;)i.shift()(); return c.push.apply(c, u || []), a() } function a() { for (var e, r = 0; r < c.length; r++) { for (var t = c[r], n = !0, o = 1; o < t.length; o++) { var u = t[o]; 0 !== p[u] && (n = !1) } n && (c.splice(r--, 1), e = f(f.s = t[0])) } return e } var t = {}, p = { 2: 0 }, c = []; function f(e) { if (t[e]) return t[e].exports; var r = t[e] = { i: e, l: !1, exports: {} }; return l[e].call(r.exports, r, r.exports, f), r.l = !0, r.exports } f.m = l, f.c = t, f.d = function (e, r, t) { f.o(e, r) || Object.defineProperty(e, r, { enumerable: !0, get: t }) }, f.r = function (e) { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) }, f.t = function (r, e) { if (1 & e && (r = f(r)), 8 & e) return r; if (4 & e && "object" == typeof r && r && r.__esModule) return r; var t = Object.create(null); if (f.r(t), Object.defineProperty(t, "default", { enumerable: !0, value: r }), 2 & e && "string" != typeof r) for (var n in r) f.d(t, n, function (e) { return r[e] }.bind(null, n)); return t }, f.n = function (e) { var r = e && e.__esModule ? function () { return e.default } : function () { return e }; return f.d(r, "a", r), r }, f.o = function (e, r) { return Object.prototype.hasOwnProperty.call(e, r) }, f.p = "https://codextheme.codexperts.in/WedLove/"; var r = window.webpackJsonp = window.webpackJsonp || [], n = r.push.bind(r); r.push = e, r = r.slice(); for (var o = 0; o < r.length; o++)e(r[o]); var s = n; a() }([])</script> -->
-    <script src="https://codextheme.codexperts.in/WedLove/static/js/1.8478eb64.chunk.js"></script>
-    <script src="https://codextheme.codexperts.in/WedLove/static/js/main.b2070952.chunk.js"></script>
+    <!-- <script src="/libraries/js/jquery.min.js" type="text/javascript"></script> -->
+    <script src="./libraries/js/wow.min.js" type="text/javascript"></script>
+    <script src="./libraries/js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="./libraries/js/chunk.js" type="text/javascript"></script>
+    <script src="./libraries/js/main.b2070952.chunk.js" type="text/javascript"></script>
+    <script>
+        // $( document ).ready(function() {
+        //     function hideLoading(){
+        //         $('#pageLoader').hide();
+        //     }
+        //     setTimeout(hideLoading, 2000);
+        // });
+    </script>
 </body>
 
 </html>
