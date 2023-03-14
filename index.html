@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="icon" href="/images/favicon.ico">
+    <link rel="icon" href="./images/favicon.ico">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="#000000">
     <meta name="description" content="Web site created using create-react-app">
-    <link rel="manifest" href="/libraries/js/manifest.json">
+    <!-- <link rel="manifest" href="./libraries/js/manifest.json"> -->
     <script src="https://kit.fontawesome.com/54c64a63d5.js" crossorigin="anonymous"></script>
     <style media="all" id="fa-v4-font-face">
         /*!
@@ -11098,7 +11098,7 @@
             unicode-range: u+f041, u+f047, u+f065-f066, u+f07d-f07e, u+f080, u+f08b, u+f08e, u+f090, u+f09a, u+f0ac, u+f0ae, u+f0b2, u+f0d0, u+f0d6, u+f0e4, u+f0ec, u+f10a-f10b, u+f123, u+f13e, u+f148-f149, u+f14c, u+f156, u+f15e, u+f160-f161, u+f163, u+f175-f178, u+f195, u+f1f8, u+f219, u+f27a
         }
     </style>
-    <title>WedLove</title>
+    <title>Wedding</title>
     <link rel='stylesheet' href='./libraries/css/animate.min.css'>
     <link rel='stylesheet' href='./libraries/css/owl.carousel.min.css'>
     <link href="./libraries/css/1.f4819cdf.chunk.css" rel="stylesheet">
@@ -11108,7 +11108,7 @@
 <body>
     <div class="wrap">
         <div id="root">
-            <div class="page_loader" id="pageLoader" style="display: none;">
+            <!-- <div class="page_loader" id="pageLoader">
                 <div class="loading-wrapper">
                     <div class="loader-heart loader-heart1"><img
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAqCAYAAAAj6gIfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAxhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDM0MiwgMjAxMC8wMS8xMC0xODowNjo0MyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2MTM0RDIyMEQwRkQxMUU0ODQwN0M0RjlCQThCRERGNyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2MTM0RDIyMUQwRkQxMUU0ODQwN0M0RjlCQThCRERGNyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjYxMzREMjFFRDBGRDExRTQ4NDA3QzRGOUJBOEJEREY3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjYxMzREMjFGRDBGRDExRTQ4NDA3QzRGOUJBOEJEREY3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+KDFqowAAApJJREFUeNrUmTtoFEEYx2c3BJOAHJJCETQqqJ34ABVBRFFsAkkQjCDRzicWNlYiFmIhWGihxiJYCIKJL4z4AAMGlFSSIo05EZEjIBZRI4rxzPr7YBaW9fZuH3O5nT/84G5Zvvnd3Ozy7azjeZ6qkgJ0QTdshkXQCg7MwlcYh0cwCF9U7WyEXtgDK2EhNMFf+AFT8AqG4GXVSiJfgSY4DkUvfj7BaWiOqLkcBuB3gpojsD2iXkX5JTDspc8zWBqq2QmllPXkx56NI78CJrzsmdAzLTV7E852VPrBjZJvh3HPXEahB34arHkpKO8ELthbcFjlPz3wUD748nLlv1B2pAibYMbVB84oe7IaDsoHkV8HO5RdOSSrRuR3Q7Nl8hvkHxD5Lcq+tMiKEfllys50uLpXsTEFkf9jqfwvkf9gqXzRrdl25jPfYUzkn+q+3KbIhJdEvgR3LZO/Eext1sJbaLNAfET3YnN+b/MOrlkgXoZzIu73Nn4uWnDnuQmv/S9O6AG8Ex7nVPy93gSY9g+4oROG4WpOl8uxoHjU7kEbvPHylYoP4E7Evs0aGIXFOZj1e7Dfv0iDcapsOu3V67+Rvb5saO36b7lErPlgnsOpBopP6Z216agT3BoF+uFCg3qXAzCZZrsvzPV5vDhnoSuOV1x52am6PQ/iZeiL6RRbXlgAg3WWP5rAJ5G80AoP6iR+MqFLYnmhBe4blJ6DEyk8Usn7S+iOoTV+JKVDanmlXyIMZLyr9GUYP5O8fxe6kkJ8Brozjp1Z3ud8AvHPsNPEuKbklb5blGuIT8J6U2OalBf2wbcIcWmzO0yOZ1pe2AYfQ+JDUDA9Vj3khVUwpsUvh1+EmcKp8RI5S9phKzyp1wD/BBgAWmeo2szmJAYAAAAASUVORK5CYII="
@@ -11119,95 +11119,69 @@
                     <div class="loader-heart loader-heart3"><img
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAqCAYAAAAj6gIfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAxhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDM0MiwgMjAxMC8wMS8xMC0xODowNjo0MyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2MTM0RDIyMEQwRkQxMUU0ODQwN0M0RjlCQThCRERGNyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2MTM0RDIyMUQwRkQxMUU0ODQwN0M0RjlCQThCRERGNyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjYxMzREMjFFRDBGRDExRTQ4NDA3QzRGOUJBOEJEREY3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjYxMzREMjFGRDBGRDExRTQ4NDA3QzRGOUJBOEJEREY3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+KDFqowAAApJJREFUeNrUmTtoFEEYx2c3BJOAHJJCETQqqJ34ABVBRFFsAkkQjCDRzicWNlYiFmIhWGihxiJYCIKJL4z4AAMGlFSSIo05EZEjIBZRI4rxzPr7YBaW9fZuH3O5nT/84G5Zvvnd3Ozy7azjeZ6qkgJ0QTdshkXQCg7MwlcYh0cwCF9U7WyEXtgDK2EhNMFf+AFT8AqG4GXVSiJfgSY4DkUvfj7BaWiOqLkcBuB3gpojsD2iXkX5JTDspc8zWBqq2QmllPXkx56NI78CJrzsmdAzLTV7E852VPrBjZJvh3HPXEahB34arHkpKO8ELthbcFjlPz3wUD748nLlv1B2pAibYMbVB84oe7IaDsoHkV8HO5RdOSSrRuR3Q7Nl8hvkHxD5Lcq+tMiKEfllys50uLpXsTEFkf9jqfwvkf9gqXzRrdl25jPfYUzkn+q+3KbIhJdEvgR3LZO/Eext1sJbaLNAfET3YnN+b/MOrlkgXoZzIu73Nn4uWnDnuQmv/S9O6AG8Ex7nVPy93gSY9g+4oROG4WpOl8uxoHjU7kEbvPHylYoP4E7Evs0aGIXFOZj1e7Dfv0iDcapsOu3V67+Rvb5saO36b7lErPlgnsOpBopP6Z216agT3BoF+uFCg3qXAzCZZrsvzPV5vDhnoSuOV1x52am6PQ/iZeiL6RRbXlgAg3WWP5rAJ5G80AoP6iR+MqFLYnmhBe4blJ6DEyk8Usn7S+iOoTV+JKVDanmlXyIMZLyr9GUYP5O8fxe6kkJ8Brozjp1Z3ud8AvHPsNPEuKbklb5blGuIT8J6U2OalBf2wbcIcWmzO0yOZ1pe2AYfQ+JDUDA9Vj3khVUwpsUvh1+EmcKp8RI5S9phKzyp1wD/BBgAWmeo2szmJAYAAAAASUVORK5CYII="
                             alt="heart img" class=""></div><img
-                        src="/images/loader_wedlove.bf5a08c9.gif"
+                        src="./images/loader_wedlove.bf5a08c9.gif"
                         alt="heart img" class="img-fluid">
                 </div>
-            </div>
-            <!-- <header class="header">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container"><a href="#home" class="navbar-brand"><img
-                                src="https://codextheme.codexperts.in/WedLove/static/media/logo.a17a30a8.png" alt="image" width="180px"
-                                class="img-fluid"></a><button id="menu_toggle" aria-controls="basic-navbar-nav"
-                            type="button" aria-label="Toggle navigation" class="navbar-toggler collapsed"><span
-                                class="navbar-toggler-icon"></span></button>
-                        <div class="navbar-collapse collapse" id="basic-navbar-nav">
-                            <div class="ms-auto navbar-nav"><a href="#home" data-rr-ui-event-key="#home"
-                                    class="nav-link">Home</a><a href="#couple" data-rr-ui-event-key="#couple"
-                                    class="nav-link">Couple</a><a href="#story" data-rr-ui-event-key="#story"
-                                    class="nav-link">Story</a><a href="#gallery" data-rr-ui-event-key="#gallery"
-                                    class="nav-link">Gallery</a><a href="#rspv" data-rr-ui-event-key="#rspv"
-                                    class="nav-link">RSVP</a><a href="#address" data-rr-ui-event-key="#address"
-                                    class="nav-link">Address</a></div>
-                        </div>
-                    </div>
-                </nav>
-            </header> -->
+            </div> -->
             <section class="wedding_banner" id="home">
                 <div class="wedding_announcement">
-                    <h2 class="loader wow fadeInLeft" data-wow-delay="0.2s" data-wow-duration="1.2s"
-                        style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.2s;">
+                    <h2 class="loader wow fadeInLeft" data-wow-delay="2.7s" data-wow-duration="1.2s">
                         <span>S</span><span>a</span><span>v</span><span>e</span><span>T</span><span>h</span><span>e</span><span>D</span><span>a</span><span>t</span><span>e</span>
                     </h2>
-                    <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="1.2s"
-                        style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.2s;">We Are Getting
-                        Married <span>"Feb 11,2033"</span> </p>
+                    <p class="wow fadeInRight" data-wow-delay="2.7s" data-wow-duration="1.2s">Lễ thành hôn được tổ chức
+                        hồi <span>"10-11-2033"</span> </p>
                     <div class="wpo-wedding-date">
                         <div class="clock-grids">
                             <div id="clock" class="d-flex">
-                                <div class="box wow zoomIn" data-wow-delay="0.3s" data-wow-duration="0.8s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.3s;">
+                                <div class="box wow zoomIn" data-wow-delay="2.8s" data-wow-duration="0.8s">
                                     <div>
-                                        <div class="time">119</div><span>Month</span>
+                                        <div class="time">119</div><span>Tháng</span>
                                     </div>
                                 </div>
-                                <div class="box wow zoomIn" data-wow-delay="0.4s" data-wow-duration="0.8s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s;">
+                                <div class="box wow zoomIn" data-wow-delay="2.9s" data-wow-duration="0.8s">
                                     <div>
-                                        <div class="time">04</div><span>Days</span>
+                                        <div class="time">04</div><span>Ngày</span>
                                     </div>
                                 </div>
-                                <div class="box wow zoomIn" data-wow-delay="0.5s" data-wow-duration="0.8s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.5s;">
+                                <div class="box wow zoomIn" data-wow-delay="3s" data-wow-duration="0.8s">
                                     <div>
-                                        <div class="time">13</div><span>Hours</span>
+                                        <div class="time">13</div><span>Giờ</span>
                                     </div>
                                 </div>
-                                <div class="box wow zoomIn" data-wow-delay="0.6s" data-wow-duration="0.8s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s;">
+                                <div class="box wow zoomIn" data-wow-delay="3.1s" data-wow-duration="0.8s">
                                     <div>
-                                        <div class="time">12</div><span>Mins</span>
+                                        <div class="time">12</div><span>Phút</span>
                                     </div>
                                 </div>
-                                <div class="box wow zoomIn" data-wow-delay="0.7s" data-wow-duration="0.8s"
-                                    style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.7s;">
+                                <div class="box wow zoomIn" data-wow-delay="3.2s" data-wow-duration="0.8s">
                                     <div>
-                                        <div class="time">36</div><span>Secs</span>
+                                        <div class="time">36</div><span>Giây</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel slide carousel-fade">
+                <div class="carousel-main slide slider carousel-fade owl-carousel">
                     <div class="carousel-inner">
-                        <div class="active carousel-item-start carousel-item"><img alt="First slide" width="100%"
+                        <div class="active carousel-item-start carousel-item">
+                            <img alt="First slide" width="100%"
                                 src="https://codextheme.codexperts.in/WedLove/static/media/slide-1.cc951be6.jpg"
-                                class="img-fluid"></div>
-                        <div class="carousel-item-next carousel-item-start carousel-item"><img alt="Second slide"
+                                class="img-fluid"/>
+                        </div>
+                        <div class="carousel-item-next carousel-item-start carousel-item">
+                            <img alt="Second slide"
                                 width="100%"
                                 src="https://codextheme.codexperts.in/WedLove/static/media/slide-2.9b2a3212.jpg"
-                                class="img-fluid"></div>
+                                class="img-fluid"/>
+                            </div>
                         <div class="carousel-item"><img alt="Third slide" width="100%"
                                 src="https://codextheme.codexperts.in/WedLove/static/media/slide-3.6533ad2b.jpg"
-                                class="img-fluid"></div>
+                                class="img-fluid"/></div>
                         <div class="carousel-item"><img alt="First slide" width="100%"
                                 src="https://codextheme.codexperts.in/WedLove/static/media/slide-4.2a7d68be.jpg"
-                                class="img-fluid"></div>
-                    </div><a class="carousel-control-prev" role="button" tabindex="0" href="#"><span aria-hidden="true"
-                            class="carousel-control-prev-icon"></span><span
-                            class="visually-hidden">Previous</span></a><a class="carousel-control-next" role="button"
-                        tabindex="0" href="#"><span aria-hidden="true" class="carousel-control-next-icon"></span><span
-                            class="visually-hidden">Next</span></a>
+                                class="img-fluid"/></div>
+                    </div>
                 </div>
             </section>
             <section class="couple-section section-padding" id="couple">
@@ -11220,12 +11194,11 @@
                 <div class="container">
                     <div class="row align-items-center z_index">
                         <div class="col-lg-3 text-center text-lg-end bride wow fadeInDown" data-wow-delay="0.1s"
-                            data-wow-duration="1.2s"
-                            style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.1s;">
+                            data-wow-duration="1.2s">
                             <div class="couple-img"><img
                                     src="https://codextheme.codexperts.in/WedLove/static/media/2.06ddab10.jpg"
                                     alt="image" width="100%" class="img-fluid"></div>
-                            <h3>Raviraj Jethva</h3>
+                            <h3>Trần Nam</h3>
                             <p>It is a long established fact that a reader will be distracted by the readable content of
                                 a page when looking at its layout.</p>
                             <div class="social">
@@ -11236,25 +11209,22 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-6 text-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.2s"
-                            style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.1s;">
+                        <div class="col-lg-6 text-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.2s">
                             <div class="middle-couple-pic"><img
                                     src="https://codextheme.codexperts.in/WedLove/static/media/1.2da65959.jpg"
                                     alt="image" data-wow-delay="0.2s" data-wow-duration="1.5s"
-                                    class="img-fluid wow zoom animated animated animated animated animated"
-                                    style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.2s;">
+                                    class="img-fluid wow zoom animated animated animated animated animated">
                                 <div class="frame-img"><img
                                         src="https://codextheme.codexperts.in/WedLove/static/media/shape.9d686c17.png"
                                         alt="image" class="img-fluid"></div>
                             </div>
                         </div>
                         <div class="col-lg-3 text-center text-lg-start groom wow fadeInDown" data-wow-delay="0.1s"
-                            data-wow-duration="1.2s"
-                            style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.1s;">
+                            data-wow-duration="1.2s">
                             <div class="couple-img"><img
                                     src="https://codextheme.codexperts.in/WedLove/static/media/3.c1620cf5.jpg"
                                     alt="image" width="100%" class="img-fluid"></div>
-                            <h3>Manisha Tank</h3>
+                            <h3>Khánh Ly</h3>
                             <p>It is a long established fact that a reader will be distracted by the readable content of
                                 a page when looking at its layout.</p>
                             <div class="social">
@@ -11270,8 +11240,7 @@
             </section>
             <section class="love_story section-padding" id="story">
                 <div class="container">
-                    <div class="section-title wow flipInX center" data-wow-delay="0.1s" data-wow-duration="1.3s"
-                        style="visibility: visible; animation-duration: 1.3s; animation-delay: 0.1s;">
+                    <div class="section-title wow flipInX center" data-wow-delay="0.1s" data-wow-duration="1.3s">
                         <div class="section-title-simg"><img
                                 src="data:image/png;base64,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"
                                 alt="image" class="img-fluid"></div>
@@ -11286,10 +11255,9 @@
                                 <div class="round-shape"></div>
                                 <div class="row order_column">
                                     <div class="col col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.2s"
-                                        data-wow-duration="1.5s"
-                                        style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.2s;">
+                                        data-wow-duration="1.5s">
                                         <div class="story-text right-align-text">
-                                            <h3>First time we meet</h3><span class="date">Feb 06,2016</span>
+                                            <h3>Lần đầu tiên</h3><span class="date">15-10-2023</span>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the
                                                 majority have suffered alteration in some form, by injected humour, or
                                                 randomised words which don't look even slightly believable.</p>
@@ -11299,8 +11267,7 @@
                                         <div class="img-holder"><img
                                                 src="https://codextheme.codexperts.in/WedLove/static/media/1.4e9f75d5.jpg"
                                                 alt="image" data-wow-delay="0.4s" data-wow-duration="1.5s"
-                                                class="img-fluid img img-responsive wow fadeInLeft"
-                                                style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.4s;">
+                                                class="img-fluid img img-responsive wow fadeInLeft">
                                             <div class="story-shape-img"><img
                                                     src="https://codextheme.codexperts.in/WedLove/static/media/shape.9752dd80.png"
                                                     alt="image" class="img-fluid"></div>
@@ -11312,8 +11279,7 @@
                                         <div class="img-holder right-align-text left-site"><img
                                                 src="https://codextheme.codexperts.in/WedLove/static/media/2.2e43e12f.jpg"
                                                 alt="image" data-wow-delay="0.6s" data-wow-duration="1.5s"
-                                                class="img img-fluid img-responsive wow fadeInRight"
-                                                style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.6s;">
+                                                class="img img-fluid img-responsive wow fadeInRight">
                                             <div class="story-shape-img"><img
                                                     src="https://codextheme.codexperts.in/WedLove/static/media/shape.9752dd80.png"
                                                     alt="image" class="img-fluid"></div>
@@ -11321,12 +11287,10 @@
                                     </div>
                                     <div class="col col-lg-6 col-12 text-holder "><span class="heart"><i
                                                 class="fi flaticon-calendar wow zoomIn" data-wow-delay="0.5s"
-                                                data-wow-duration="1s"
-                                                style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s;"></i></span>
+                                                data-wow-duration="1s"></i></span>
                                         <div class="story-text wow fadeInLeft" data-wow-delay="0.8s"
-                                            data-wow-duration="1.5s"
-                                            style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.8s;">
-                                            <h3>First Date</h3><span class="date">March 16,2016</span>
+                                            data-wow-duration="1.5s">
+                                            <h3>Ngày yêu đầu tiên</h3><span class="date">24-08-2020</span>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the
                                                 majority have suffered alteration in some form, by injected humour, or
                                                 randomised words which don't look even slightly believable.</p>
@@ -11337,9 +11301,8 @@
                                     <div class="col col-lg-6 col-12 text-holder right-heart"><span class="heart"><i
                                                 class="fi flaticon-dove"></i></span>
                                         <div class="story-text right-align-text wow fadeInRight" data-wow-delay="0.5s"
-                                            data-wow-duration="1.5s"
-                                            style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s;">
-                                            <h3>Marriage Proposal</h3><span class="date">June 16,2017</span>
+                                            data-wow-duration="1.5s">
+                                            <h3>Ngày cầu hôn</h3><span class="date">29-04-2023</span>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the
                                                 majority have suffered alteration in some form, by injected humour, or
                                                 randomised words which don't look even slightly believable.</p>
@@ -11349,8 +11312,7 @@
                                         <div class="img-holder right-align-text"><img
                                                 src="https://codextheme.codexperts.in/WedLove/static/media/3.2be304ed.jpg"
                                                 alt="image" data-wow-delay="0.8s" data-wow-duration="1.5s"
-                                                class="img img-fluid img-responsive wow fadeInLeft"
-                                                style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.8s;">
+                                                class="img img-fluid img-responsive wow fadeInLeft">
                                             <div class="story-shape-img"><img
                                                     src="https://codextheme.codexperts.in/WedLove/static/media/shape.9752dd80.png"
                                                     alt="image" class="img-fluid"></div>
@@ -11362,8 +11324,7 @@
                                         <div class="img-holder video-holder left-site"><img
                                                 src="https://codextheme.codexperts.in/WedLove/static/media/4.872d698f.jpg"
                                                 alt="image" data-wow-delay="0.5s" data-wow-duration="1.5s"
-                                                class="img img-fluid img-responsive wow fadeInRight"
-                                                style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s;">
+                                                class="img img-fluid img-responsive wow fadeInRight">
                                             <div class="story-shape-img"><img
                                                     src="https://codextheme.codexperts.in/WedLove/static/media/shape.9752dd80.png"
                                                     alt="image" class="img-fluid"></div>
@@ -11371,12 +11332,10 @@
                                     </div>
                                     <div class="col col-lg-6 col-12 text-holder"><span class="heart"><i
                                                 class="fi flaticon-wedding-rings wow zoomIn" data-wow-delay="0.5s"
-                                                data-wow-duration="0.5s"
-                                                style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s;"></i></span>
+                                                data-wow-duration="0.5s"></i></span>
                                         <div class="story-text wow fadeInLeft" data-wow-delay="0.8s"
-                                            data-wow-duration="1.5s"
-                                            style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.8s;">
-                                            <h3>Our Engagement</h3><span class="date">May 23,2021</span>
+                                            data-wow-duration="1.5s">
+                                            <h3>Kết hôn</h3><span class="date">16-12-2023</span>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the
                                                 majority have suffered alteration in some form, by injected humour, or
                                                 randomised words which don't look even slightly believable.</p>
@@ -11386,8 +11345,7 @@
                                 <div class="row">
                                     <div class="col offset-lg-6 col-lg-6 col-12 text-holder"><span class="heart"><i
                                                 class="fi ti-search wow zoomIn" data-wow-delay="0.5s"
-                                                data-wow-duration="0.5s"
-                                                style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.5s;"></i></span>
+                                                data-wow-duration="0.5s"></i></span>
                                     </div>
                                 </div>
                             </div>
@@ -11410,55 +11368,31 @@
                             <div class="bg_1"><img
                                     src="https://codextheme.codexperts.in/WedLove/static/media/1.801ce87f.png"
                                     alt="image" data-wow-delay="0.8s" data-wow-duration="1.5s"
-                                    class="img-fluid  wow fadeInLeft"
-                                    style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.8s;"></div>
+                                    class="img-fluid  wow fadeInLeft"></div>
                         </div>
                         <div class="col-lg-6 col-xl-6">
                             <div class="content_wrapper">
                                 <div class="rsvpForm_area">
                                     <div class="section-title wow flipInX center" data-wow-delay="0.1s"
-                                        data-wow-duration="1.3s"
-                                        style="visibility: visible; animation-duration: 1.3s; animation-delay: 0.1s;">
+                                        data-wow-duration="1.3s">
                                         <div class="section-title-simg"><img
                                                 src="data:image/png;base64,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"
                                                 alt="image" class="img-fluid"></div>
-                                        <h2>Are you attending?</h2>
+                                        <h2>Thiệp chúc mừng</h2>
                                         <div class="section-title-img">
                                             <div class="round-ball"></div>
                                         </div>
                                     </div>
                                     <form class="contact-validation-active">
                                         <div class="form-field"><input type="text" name="name" class="form-control"
-                                                placeholder="Your Name" value=""></div>
+                                                placeholder="Tên của bạn" value=""></div>
                                         <div class="form-field"><input type="number" name="text" class="form-control"
-                                                placeholder="Your Number" value=""></div>
-                                        <div class="form-field radio-buttons">
-                                            <p class="mb-0"><input type="radio" id="attend" name="radio-group"
-                                                    class="d-none" checked=""><label for="attend">Yes, I will be
-                                                    there</label></p>
-                                            <p class="mb-0"><input type="radio" id="not" name="radio-group"
-                                                    class="d-none"><label for="not">Sorry, I can’t come</label></p>
-                                        </div>
-                                        <div class="form-field"><select type="text" class="form-control" name="guest">
-                                                <option>Number Of Guests</option>
-                                                <option>01</option>
-                                                <option>02</option>
-                                                <option>03</option>
-                                                <option>04</option>
-                                                <option>05</option>
-                                            </select></div>
+                                                placeholder="Số điện thoại" value=""></div>
+
                                         <div class="form-field"><input type="text" name="attend" class="form-control"
-                                                placeholder="What Will You Be Attending" value=""></div>
-                                        <div class="form-field"><select type="text" class="form-control" name="meal">
-                                                <option>Meal Preferences</option>
-                                                <option>Chicken Soup</option>
-                                                <option>Motton Kabab</option>
-                                                <option>Chicken BBQ</option>
-                                                <option>Mix Salad</option>
-                                                <option>Beef Ribs </option>
-                                            </select></div>
-                                        <div class="submit-area"><button type="submit" class="theme-btn">Submit
-                                                Now</button></div>
+                                                placeholder="Lời chúc của bạn" value=""></div>
+                                        <div class="submit-area"><button type="submit" class="theme-btn">Gửi lời
+                                                chúc</button></div>
                                     </form>
                                     <div class="border-style"></div>
                                 </div>
@@ -11474,12 +11408,11 @@
             </section>
             <section class="gallery_sec section-padding pb-0" id="gallery">
                 <div class="container">
-                    <div class="section-title wow flipInX center" data-wow-delay="0.1s" data-wow-duration="1.3s"
-                        style="visibility: visible; animation-duration: 1.3s; animation-delay: 0.1s;">
+                    <div class="section-title wow flipInX center" data-wow-delay="0.1s" data-wow-duration="1.3s">
                         <div class="section-title-simg"><img
                                 src="data:image/png;base64,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"
                                 alt="image" class="img-fluid"></div>
-                        <h2>Sweet Captured Moments</h2>
+                        <h2>Khoảnh khắc ngọt ngào</h2>
                         <div class="section-title-img">
                             <div class="round-ball"></div>
                         </div>
@@ -11544,12 +11477,11 @@
             </section>
             <section class="address_section section-padding pt-0" id="address">
                 <div class="container">
-                    <div class="section-title wow flipInX center" data-wow-delay="0.1s" data-wow-duration="1.3s"
-                        style="visibility: visible; animation-duration: 1.3s; animation-delay: 0.1s;">
+                    <div class="section-title wow flipInX center" data-wow-delay="0.1s" data-wow-duration="1.3s">
                         <div class="section-title-simg"><img
                                 src="data:image/png;base64,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"
                                 alt="image" class="img-fluid"></div>
-                        <h2>When &amp; Where</h2>
+                        <h2>Thời gian &amp; Địa điểm</h2>
                         <div class="section-title-img">
                             <div class="round-ball"></div>
                         </div>
@@ -11557,14 +11489,14 @@
                     <div class="wpo-event-wrap">
                         <div class="row justify-content-center">
                             <div class="col col-xl-4 col-lg-6 col-md-6 col-12">
-                                <div class="wpo-event-item">
+                                <div class="wpo-event-item wow fadeInUp" data-wow-delay="0.5" data-wow-duration="0.8s">
                                     <div class="wpo-event-text">
-                                        <h2>The Reception</h2>
+                                        <h2>Nhà trai</h2>
                                         <ul>
-                                            <li>Monday, 25 Sep, 2021 1:00 PM – 4:30 PM</li>
-                                            <li>Estern Comunity Centure, 525 Road 123, USA</li>
-                                            <li>Phone : +12345678910</li>
-                                            <li><a class="popup-gmaps" href="#/">See Location</a></li>
+                                            <li>Thứ 2, 10 tháng 11 2023 1:00 PM </li>
+                                            <li>Bình Định, Kiến Xương, Thái Bình</li>
+                                            <li>Số điện thoại: +12345678910</li>
+                                            <li><a class="popup-gmaps" href="#/">Xem vị trí</a></li>
                                         </ul>
                                     </div>
                                     <div class="event-shape-1"><img
@@ -11576,14 +11508,14 @@
                                 </div>
                             </div>
                             <div class="col col-xl-4 col-lg-6 col-md-6 col-12">
-                                <div class="wpo-event-item">
+                                <div class="wpo-event-item wow fadeInUp" data-wow-delay="0.7s" data-wow-duration="0.8s">
                                     <div class="wpo-event-text">
-                                        <h2>The Ceremony</h2>
+                                        <h2>Nhà gái</h2>
                                         <ul>
-                                            <li>Monday, 25 Sep, 2021 1:00 PM – 4:30 PM</li>
-                                            <li>Estern Comunity Centure, 525 Road 123, USA</li>
-                                            <li>Phone : +12345678910</li>
-                                            <li><a class="popup-gmaps" href="#/">See Location</a></li>
+                                            <li>Thứ 2, 10 tháng 11 2023 1:00 PM </li>
+                                            <li>Đồng Văn, Yên Lạc, Vĩnh Phúc</li>
+                                            <li>Số điện thoại: +12345678910</li>
+                                            <li><a class="popup-gmaps" href="#/">Xem vị trí</a></li>
                                         </ul>
                                     </div>
                                     <div class="event-shape-1"><img
@@ -11595,14 +11527,14 @@
                                 </div>
                             </div>
                             <div class="col col-xl-4 col-lg-6 col-md-6 col-12">
-                                <div class="wpo-event-item">
+                                <div class="wpo-event-item wow fadeInUp" data-wow-delay="0.9s" data-wow-duration="0.8s">
                                     <div class="wpo-event-text">
-                                        <h2>Wedding Party</h2>
+                                        <h2>Lễ thành hôn</h2>
                                         <ul>
-                                            <li>Monday, 25 Sep, 2021 1:00 PM - 4:30 PM</li>
-                                            <li>Estern Comunity Centure, 525 Road 123, USA</li>
-                                            <li>Phone : +12345678910</li>
-                                            <li><a class="popup-gmaps" href="#/">See Location</a></li>
+                                            <li>Thứ 2, 10 tháng 11 2023 1:00 PM </li>
+                                            <li>Bình Định, Kiến Xương, Thái Bình</li>
+                                            <li>Số điện thoại: +12345678910</li>
+                                            <li><a class="popup-gmaps" href="#/">Xem vị trí</a></li>
                                         </ul>
                                     </div>
                                     <div class="event-shape-1"><img
@@ -11622,18 +11554,37 @@
     </div>
 
     <!-- <script>!function (l) { function e(e) { for (var r, t, n = e[0], o = e[1], u = e[2], f = 0, i = []; f < n.length; f++)t = n[f], p[t] && i.push(p[t][0]), p[t] = 0; for (r in o) Object.prototype.hasOwnProperty.call(o, r) && (l[r] = o[r]); for (s && s(e); i.length;)i.shift()(); return c.push.apply(c, u || []), a() } function a() { for (var e, r = 0; r < c.length; r++) { for (var t = c[r], n = !0, o = 1; o < t.length; o++) { var u = t[o]; 0 !== p[u] && (n = !1) } n && (c.splice(r--, 1), e = f(f.s = t[0])) } return e } var t = {}, p = { 2: 0 }, c = []; function f(e) { if (t[e]) return t[e].exports; var r = t[e] = { i: e, l: !1, exports: {} }; return l[e].call(r.exports, r, r.exports, f), r.l = !0, r.exports } f.m = l, f.c = t, f.d = function (e, r, t) { f.o(e, r) || Object.defineProperty(e, r, { enumerable: !0, get: t }) }, f.r = function (e) { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) }, f.t = function (r, e) { if (1 & e && (r = f(r)), 8 & e) return r; if (4 & e && "object" == typeof r && r && r.__esModule) return r; var t = Object.create(null); if (f.r(t), Object.defineProperty(t, "default", { enumerable: !0, value: r }), 2 & e && "string" != typeof r) for (var n in r) f.d(t, n, function (e) { return r[e] }.bind(null, n)); return t }, f.n = function (e) { var r = e && e.__esModule ? function () { return e.default } : function () { return e }; return f.d(r, "a", r), r }, f.o = function (e, r) { return Object.prototype.hasOwnProperty.call(e, r) }, f.p = "https://codextheme.codexperts.in/WedLove/"; var r = window.webpackJsonp = window.webpackJsonp || [], n = r.push.bind(r); r.push = e, r = r.slice(); for (var o = 0; o < r.length; o++)e(r[o]); var s = n; a() }([])</script> -->
-    <!-- <script src="/libraries/js/jquery.min.js" type="text/javascript"></script> -->
-    <script src="./libraries/js/wow.min.js" type="text/javascript"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> -->
+    <script src="./libraries/js/jquery.min.js" type="text/javascript"></script>
     <script src="./libraries/js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="./libraries/js/wow.min.js" type="text/javascript"></script>
+    <script> new WOW().init(); </script>
     <script src="./libraries/js/chunk.js" type="text/javascript"></script>
     <script src="./libraries/js/main.b2070952.chunk.js" type="text/javascript"></script>
-    <script>
-        // $( document ).ready(function() {
-        //     function hideLoading(){
-        //         $('#pageLoader').hide();
-        //     }
-        //     setTimeout(hideLoading, 2000);
-        // });
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            function hideLoading() {
+                $('#pageLoader').fadeOut();
+            }
+            // hiệu ứng loading
+            setTimeout(function () {
+                hideLoading()
+            }, 2500);
+
+            // slide
+            $(".carousel-main").owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 2000, //2000ms = 2s;
+                autoplayHoverPause: true,
+                items: 1,
+                navigation: true,
+            });
+        });
     </script>
 </body>
 
